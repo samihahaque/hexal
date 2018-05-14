@@ -1,0 +1,121 @@
+body{
+     font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: #323232;
+    position: relative;
+}
+header .logo{
+    position: absolute;
+    top:0;
+    left:41.5%;
+}
+.custom_nav ul li{
+    padding:0 18px;
+}
+.custom_nav ul li a{
+    color:white !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    transition: 0.4s;
+}
+.custom_nav ul li a:hover{
+    color:#238b76 !important;
+}
+.gallery{
+    padding:10% 0;
+}
+.single_img img{
+    width:100%;
+}
+.single_img{
+    transition:0.6s;
+}
+.single_img:hover{
+    transform: scale(1.1);
+}
+.profile{
+    background-color: #2eb398;
+    padding:5% 0;
+}
+.profile img{
+    width:100%;
+}
+.profile_text .text h1{
+    font-family: 'Maven Pro', sans-serif;
+    color:#d7fcf5;
+    font-size: 33px;
+}
+.profile_text .text h3{
+    font-family: 'Maven Pro', sans-serif;
+    color:#238b76;
+    font-size: 21px;
+}
+.profile_text .text p{
+    color:#d7fcf5;
+    font-size: 16px;
+    padding-top:2.5%;
+}
+.links{
+    background-color: #a5dbd4;
+    margin-top:5%;
+}
+.profile .links i{
+    font-size:26px;
+    padding:3% 3%;
+    color:#04ac95;
+    border-left: 1px solid #2eb398;
+    transition:0.4s;
+}
+.profile .links i:hover{
+    background-color:#6dcbbe;
+    transform:scale(1.16);
+}
+footer{
+    background-color: #323232;
+    padding:5% 0;
+}
+.form form input{
+    background-color: #454545;
+}
+
+.form form textarea{
+    background-color: #454545;
+}
+.footer_text h1{
+font-family: 'Maven Pro', sans-serif;
+    font-size: 33px;
+    color:#e0e0e0;
+}
+.footer_text h3{
+font-family: 'Maven Pro', sans-serif;
+    font-size:21px;
+    color:#e0e0e0
+}
+footer .custom_btn{
+    width:100%;
+    background-color:#2eb398;
+    border:none;
+    padding:6% 0;
+}
+footer p{
+    color:#e0e0e0;
+    font-size: 15px;
+}
+footer span{
+    color:#e0e0e0;
+    font-size: 15px;
+}
+footer i{
+    color: #2eb398;
+}
+footer .custom_btn:hover{
+    
+    background-color:#238b76;
+    
+}
+.last{
+    background-color: #222222;
+    color:#323232;
+    padding:1% 0;
+}
